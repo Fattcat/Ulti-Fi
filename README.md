@@ -1,10 +1,9 @@
-```diff
+
 - text in red
 + text in green
 ! text in orange
 #text in gray
 @@ text in purple (and bold)@@
-```
 
 # <p text-align="center">Ulti-Fi</p>
 
