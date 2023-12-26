@@ -1,8 +1,9 @@
-# ---------------------------------------------
-# ! FOR EDUCATION PURPOSES ONLY !
+# --------------------------------------------------------------#
+#               ! FOR EDUCATION PURPOSES ONLY !
 # MORE Information HERE --> https://github.com/Fattcat/Ulti-Fi
-# Created for automate penetration testing
-# ---------------------------------------------
+#           Created for automate penetration testing
+# ------------------------------------------------------------- #
+
 # Moduly
 import os
 import time
@@ -21,17 +22,17 @@ cyan = '\033[36m'
 
 # Clear terminal
 os.system("clear")
+time.sleep(1)
 
-CheckOS = platform.platform()
-print(CheckOS)
-if "linux" in CheckOS:
-    print("Detected Linux OS\nStarting ...")
-else:
-    print("! Other OS!\nAborting script!")
+# ------------------------
+#TU SPRAVIT LEPSI CHECK OS
+# ------------------------
+
 os.system("iwconfig")
 AdapterChoice = input("Select WiFi Adapter for USE : ")
 print("Starting monitor mode on", AdapterChoice)
 time.sleep(1)
-subprocess.run(['sudo', 'airmon-ng', 'start', AdapterChoice], check=True, shell=False)
+CommandForMonModeON = "sudo airmon-ng start"
+subprocess.run([CommandForMonModeON, AdapterChoice], check=True, text=False, shell=False)
 time.sleep(1)
 subprocess.run([""])
