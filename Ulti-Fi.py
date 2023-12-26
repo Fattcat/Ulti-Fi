@@ -9,7 +9,7 @@ import os
 import time
 import subprocess
 import platform
-from SRC import DoNK-Menu
+from SRC import DoNKModul
 
 # Farbicky
 reset = '\033[0m'
@@ -21,13 +21,23 @@ blue = '\033[34m'
 magenta = '\033[35m'
 cyan = '\033[36m'
 
-# Clear terminal
-os.system("clear")
-time.sleep(1)
+# Check OS
+os_info = platform.system()
+print(f"Detected : {os_info} OS")
+if is_info =="Linux": 
+    # Clear terminal
+    os.system("clear")
+    time.sleep(1)
+    pass
+else:
+    print(f"Detected : {os_info} OS")
+    print("Aborting ... CUZ OS IS NOT LINUX\nNO SUPPORT FOR SCRIPTS :/")
 
-# ------------------------
-#TU SPRAVIT LEPSI CHECK OS
-# ------------------------
+    # ----------
+    # Spravit triedu alebo func v "DoNKModul" pre SWAG vyhodenie
+    DoNKModul.Vyhadzovak()
+    # ----------
+
 
 def check_monitor_mode():
     # Spustí príkaz iwconfig a zachytí výstup ze neho musim nastavit text=False az to nepise vsetko
