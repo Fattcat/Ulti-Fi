@@ -1,4 +1,8 @@
-# Giong to be added Sooooooooooon :D 
+# ---------------------------------------------
+# ! FOR EDUCATION PURPOSES ONLY !
+# MORE Information HERE --> https://github.com/Fattcat/Ulti-Fi
+# Created for automate penetration testing
+# ---------------------------------------------
 # Moduly
 import os
 import time
