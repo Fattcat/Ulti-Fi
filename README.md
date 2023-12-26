@@ -7,15 +7,19 @@ Ulti-Fi - Script for Deauth, Capture HandShake and crack it for show WiFi Passwo
 -    By using this script you are responsible at you own risk
 
 ## <p align="center"><b>---> [ Installation ] <---</b></p>
-- 1. cloning repository
+- 1 cloning repository
 ```
 git clone https://github.com/Fattcat/Ulti-Fi.git
 ```
-- 2. Change directory
+- 2 Change directory
 ```
 cd Ulti-Fi
 ```
-- 3. start script
+- 3 Install requirement modules
+```
+pip3 install requirements.txt
+```
+- 4 start script
 ```
 sudo Ulti-Fi
 ```
