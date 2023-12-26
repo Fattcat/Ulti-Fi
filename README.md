@@ -1,5 +1,5 @@
 # <h1 align="center">
-<font-size: 10>
+<font size: "10">
 <b>Ulti-Fi</b>
 </h1>
 
