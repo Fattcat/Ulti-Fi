@@ -9,7 +9,7 @@ Ulti-Fi - Script for Deauth, Capture HandShake and crack it for show WiFi Passwo
 ## <p align="center"><b>---> [ Installation ] <---</b></p>
 - 1. cloning repository
 ```
-git clone https githib.com/Fattcat/Ulti-Fi.git
+git clone https://github.com/Fattcat/Ulti-Fi.git
 ```
 - 2. Change directory
 ```
