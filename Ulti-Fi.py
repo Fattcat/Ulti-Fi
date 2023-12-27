@@ -9,8 +9,8 @@ import os
 import time
 import subprocess
 import platform
-from SRC import DoNKModul
-
+from SRC import DoNKModule
+p
 # Farbicky
 reset = '\033[0m'
 red = '\033[31m'
