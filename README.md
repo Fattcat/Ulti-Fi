@@ -21,5 +21,5 @@ pip3 install requirements.txt
 ```
 - 4 start script
 ```
-sudo Ulti-Fi
+sudo python3 Ulti-Fi.py
 ```
