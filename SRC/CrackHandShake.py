@@ -1,7 +1,5 @@
-# CrackHandShake File going to be here :D
-
 import os
-
+import time
 # Path to captured handshake file
 captured_handshake = "capturedShake.cap"
 
