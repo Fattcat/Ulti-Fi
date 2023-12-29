@@ -2,7 +2,7 @@
 
 Ulti-Fi - Script for Deauth, Capture HandShake and crack it for show WiFi Password
 
-#<p align="center"><b>! Disclaimer !</b></p>
+<p align="center"><b># ! Disclaimer !</b></p>
 - Im NOT responsible of any damages or unethical use using my script.
 - By using this script you are responsible at you own risk
 
