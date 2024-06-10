@@ -40,7 +40,7 @@ print(orange, Logo, reset)
 time.sleep(0.1)
 print("------"* 10)
 print(f"{blue}Author : {green}Fattcat - Dominik Hulin{reset}")
-print(f"{blue}GitHub : {green}https//:github.com/Fattcat{reset}")
+print(f"{blue}GitHub : {green}https://github.com/Fattcat{reset}")
 # ----- Print LOGO ----- #
 
 
@@ -116,8 +116,11 @@ elif UserInput =="2":
 elif UserInput =="3":
     CATCHShake = CaptureHandShake.ShakeIt()
 
-elif UserInput =="4":
-    pass
+elif UserInput == "4":
+    try:
+        subprocess.Popen(["gnome-terminal", "--", "--geometry", "800x600+0+0", "--", "cd ET && python3 main.py"])
+    except KeyboardInterrupt:
+        print("CTRL-C bol stlačený v hlavnom skripte.")
 
 elif UserInput =="5":
     PomocnePrikazy = DoNKModule.Help
@@ -127,3 +130,10 @@ elif UserInput =="6":
     vyhodenie = DoNKModule.Vyhadzovak
     print(vyhodenie)
     exit()
+
+elif UserInput =="ET":
+   print(f"{green}Čendžing dajrektorii{reset}...")
+   # Spustenie nového terminálu aj s rozmermi terminálu a prepnutie pracovného adresára na "ET"
+   subprocess.Popen(["gnome-terminal", "--geometry", "800x600+0+0", "--", "cd ET && python3 main.py"])
+
+
