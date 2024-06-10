@@ -23,3 +23,8 @@ pip3 install requirements.txt
 ```
 sudo python3 Ulti-Fi.py
 ```
+
+## UPDATES
+- Something edited :D
+- Something added :D
+- Something reworked :D
