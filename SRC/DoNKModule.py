@@ -31,12 +31,13 @@ MainMenu = f"""
     ---- {green}[ Main Menu ]{reset} ---------------------------- {green}[ Small Help ]{reset} ------------------
     ---------------------------------------------------------------------------------
 
-    [1] Start monitor mode                    - {green}Enable Monitor Mode{reset} on '{magenta}wlan1{reset}'
-    [2] Start Deauth Attack                   - {green}For{reset} {red}DISCONNECT USERS{reset} on target WiFi
-    [3] Capture WiFi HandShake                - {green}Catch HandShake to File{reset}
-    [4] Crack HandShake File                  - {green}Crack with some wordlist{reset}
-    [5] -h or help                            - {green}display usage with command{reset}
-    [{red}6{reset}] {red}EXIT{reset}                                  - {red}Stop and EXIT{reset}
+    [1] Start monitor mode                 - {green}Enable Monitor Mode{reset} on '{magenta}wlan1{reset}'
+    [2] Start Deauth Attack                - {green}For{reset} {red}DISCONNECT USERS{reset} on target WiFi
+    [3] Capture WiFi HandShake             - {green}Catch HandShake to File{reset}
+    [4] Crack HandShake File               - {green}Crack with some wordlist{reset}
+    [5] -h or help                         - {green}display usage with command{reset}
+    [ET] Evil Twin                         - {green}Start Evil Twin Attack Rogue AP{reset}
+    [{red}6{reset}] {red}EXIT{reset}       - {red}Stop and EXIT{reset}
 """
 
 Help = f"""
@@ -52,7 +53,14 @@ Help = f"""
 2. Start Deauth Attack
              ---[ INFO ] ---
 - Command for start deauth attack on correct WiFi SSID
-- will be added
+- will be added soooooon ...
+
+...
+
+ET. Ewin Twin
+             ---[ INFO ] ---
+- Evil Twin Attack for get WiFi Password of target Router
+- will be added soooooon ...
 """
 
 
