@@ -118,7 +118,7 @@ elif UserInput =="3":
 
 elif UserInput == "4":
     try:
-        subprocess.Popen(["gnome-terminal", "--", "--geometry", "800x600+0+0", "--", "cd ET && python3 main.py"])
+        subprocess.Popen(["gnome-terminal", "--", "--geometry", "800x600+0+0", "--", "cd ET && python3 CrackHandShake.py.py"])
     except KeyboardInterrupt:
         print("CTRL-C bol stlačený v hlavnom skripte.")
 
