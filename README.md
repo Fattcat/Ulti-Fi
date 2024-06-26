@@ -1,6 +1,6 @@
 # <p align="center"><b>Ulti-Fi</b></p>
 
-Ulti-Fi - Script for Deauth, Capture HandShake and crack it for show WiFi Password
+Ulti-Fi - Script for Deauth, Capture HandShake crack it with Fake ET AP.
 
 # <p align="center"><b>! DISCLAIMER !</b></p>
 - Im NOT responsible of any damages or unethical use using my script.
